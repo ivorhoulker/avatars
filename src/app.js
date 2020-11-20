@@ -20,4 +20,4 @@ console.info(
   }`
 );
 
-export default app;
+module.exports = app;

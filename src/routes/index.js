@@ -8,4 +8,4 @@ const router = () => {
   return router;
 };
 
-export default router;
+module.exports = router;
