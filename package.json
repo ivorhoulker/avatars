@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node --experimental-modules index.js",
     "dev": "nodemon --watch src --exec \"npm run build && npm start\"",
     "test": "mocha",
     "verify": "npm run eslint && npm run test",

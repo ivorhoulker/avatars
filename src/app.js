@@ -1,9 +1,9 @@
-import express from "express";
-import cookieParser from "cookie-parser";
-import helmet from "helmet";
-import config from "config";
-import avatarsMiddleware from "adorable-avatars";
-import indexRouter from "./routes/index";
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const helmet = require("helmet");
+const config = require("config");
+const avatarsMiddleware = require("adorable-avatars");
+const indexRouter = require("./routes/index");
 
 const app = express();
 
